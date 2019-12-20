@@ -2,7 +2,7 @@
  * @Author: chang_an
  * @Date: 2019-12-19 16:30:14
  * @LastEditors  : chang_an
- * @LastEditTime : 2019-12-20 16:59:38
+ * @LastEditTime : 2019-12-20 17:00:38
  * @FilePath: \textf:\桌面\word_frequency_statistics.py\README.md
  -->
 
@@ -38,6 +38,7 @@
 ```python
 pip install text-word
 ```
+
 ## 代码示例
 
 ```python
@@ -45,9 +46,11 @@ pip install text-word
 from text import words
 words.statistics()
 ```
+
 上述代码即可完成词频统计。
 
 ## 报错处理
+
 如有以下错误：
 ![报错现象](https://github.com/Gemini128663/photos/raw/master/photos/14.png
 )

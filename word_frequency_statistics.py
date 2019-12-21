@@ -49,8 +49,10 @@ def statistics():
     label = [items[i][0] for i in range(number)]
     plt.xticks(range(number), label, rotation=-45)  # x轴刻度
     label1 = [items[i][1] for i in range(number)]
-    plt.bar(range(number), label1, width=0.5, color="red")  # 绘制直方图
-    plt.title("词频分布直方图")
+    plt.bar(range(number), label1, width=0.5, color="red")  # 绘制条形图
+    for x, y in enumerate(label1):
+        plt.text(x-0.15, y, int(y))
+    plt.title("词频分布条形图")
     plt.show()
 
-# statistics()
+statistics()

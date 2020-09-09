@@ -14,10 +14,11 @@
 
 ## 使用库
 
-+ [x] os
-+ [x] tkinter
-+ [x] jieba
-+ [x] matplotlib
+- os
+- tkinter
+- jieba
+- matplotlib
+- abcd
 
 ## 项目背景及介绍
 

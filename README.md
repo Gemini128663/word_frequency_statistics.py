@@ -14,11 +14,10 @@
 
 ## 使用库
 
-- os
-- tkinter
-- jieba
-- matplotlib
-- abcd
++ [x] os
++ [x] tkinter
++ [x] jieba
++ [x] matplotlib
 
 ## 项目背景及介绍
 
@@ -53,6 +52,8 @@ words.statistics()
 ## 报错处理
 
 如有以下错误：
+
+
 ![报错现象](https://github.com/Gemini128663/photos/raw/master/photos/14.png
 )
 
